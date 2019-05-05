@@ -37,7 +37,7 @@ if __name__=='__main__':
     arr=[]
     n=int(input("Enter the number of elements\n"))
     for i in range(0,n):
-        ele=int(input("Enter the "+str(i)+" th element\n"))
+        ele=int(input("Enter the "+str(i+1)+" th element\n"))
         arr.append(ele)
     printl(arr)
     mergesort(arr)
